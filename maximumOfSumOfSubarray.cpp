@@ -23,6 +23,8 @@ void maximumOfSumOfSubarray(vector<int> arr, int k) {
 
         
         if(sum < k) {
+
+            // This if is only used to store the indices of the subarray 
             if((j-i+1) > max_size){     // yaar tabhi subarray store karo jab tumhe pahle se bada size mila hai logial hai bhai  initially max_size is INT_MIN so 1 bhi bada hoga toh uss subarray ke indices store krega then max_size badega aur agar pahle se bada  hoga tabhi hum subarray ke indices store karenge 
                 m = i;
                 n = j;
