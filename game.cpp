@@ -198,6 +198,7 @@ int rowSize = 3;
 
 
 // Real task to build (Person to Computer) tic tac toe
+// bhai ghanta tough hai ye , kuch bhi nhi hai
 
 vector<vector<char>> Board(3, vector<char>(3,'#'));
 
