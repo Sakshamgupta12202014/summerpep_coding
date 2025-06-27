@@ -2,7 +2,7 @@
 
 using namespace std;
 
-
+// this is a question of DP
 void findIntgerN(int x, int y){
 
     // find an integer N such that SumOfDigOf(N) == x and sum of digits of SumOfDigOf(N+1) == y
